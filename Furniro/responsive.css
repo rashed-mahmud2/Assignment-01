@@ -1,0 +1,568 @@
+@media screen and (max-width: 1281px) {
+  /* || HOme page || */
+
+  .container {
+    padding: 0 5rem;
+  }
+
+  /* .browze-the-rang .container {
+    padding: 0 3rem;
+  } */
+
+  .browze-range-cards {
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  /* cta section */
+
+  .cta-section .container {
+    flex-direction: column;
+  }
+
+  .cta-section .container .cta-text {
+    flex-basis: 100%;
+    text-align: center;
+    margin-block: 3rem;
+  }
+
+  .cta-section .container .cta-image {
+    flex-basis: 100%;
+    margin-bottom: 3rem;
+    gap: 3rem;
+  }
+
+  .cta-section .container .cta-image > * {
+    flex: 1;
+  }
+
+  .cta-section .container .cta-image .images {
+    flex-direction: column;
+  }
+  .cta-section .container .cta-image .images .gap1rem {
+    display: flex;
+    gap: 1.2rem;
+  }
+
+  /* gallery section */
+
+  .gallery-section .gallery {
+    flex-direction: column;
+  }
+
+  /* || Blog page || */
+  .blog-section .container {
+    gap: 5rem;
+    margin-bottom: 1rem;
+  }
+
+  .blog-section .container .contents .content .large {
+    width: 100%;
+  }
+  .blog-section aside {
+    flex-basis: 30%;
+  }
+
+  /* || Single product Page || */
+
+  .asgaard-sofa-section .container {
+    display: flex;
+    gap: 3rem;
+    padding: 0 3rem;
+  }
+  .asgaard-sofa-section .sofa-details {
+    flex-basis: 45%;
+    width: 45%;
+  }
+
+  .asgaard-sofa-section .container .sofa-both {
+    gap: 1.4rem;
+  }
+
+  .sofa-details .buttons {
+    gap: 1rem;
+  }
+
+  .sofa-details .buttons button {
+    padding: 1rem 1.8rem;
+  }
+
+  .sofa-description .sofa-description-image div img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .container {
+    padding: 0 4rem;
+  }
+  h1 {
+    font-size: 2.8rem;
+    font-weight: 600;
+    line-height: 3.8rem;
+  }
+
+  h2 {
+    font-size: 2.1rem;
+    font-weight: 600;
+  }
+
+  h3 {
+    font-size: 1.65rem;
+    font-weight: 600;
+  }
+
+  h4 {
+    font-size: 1.15rem;
+    font-weight: 600;
+  }
+
+  p,
+  a {
+    font-size: 1rem;
+  }
+
+  /* || Home page || */
+
+  .browze-range-cards img {
+    width: 100%;
+  }
+
+  .product-section .products-cards {
+    justify-content: center;
+    gap: 1.4rem;
+  }
+  .product-section .products-cards .product-card {
+    flex-basis: 23%;
+  }
+
+  .hero-text p.hero-description {
+    margin-block: 1rem;
+  }
+
+  .hero-section .primary-btn {
+    margin-top: 0;
+  }
+
+  .product-section .hover-content .flex {
+    gap: 0.8rem;
+  }
+
+  .product-section .hover-content .flex span {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  /* || Blog page || */
+
+  .blog-section .container {
+    gap: 4rem;
+  }
+
+  .cart-section .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cart-section .cart-description {
+    width: 100%;
+  }
+
+  /* || Single Product page || */
+
+  .asgaard-sofa-section .sofa-large img {
+    width: 100%;
+  }
+
+  .sofa-details .buttons button {
+    font-size: 1rem;
+  }
+
+  .sofa-details .buttons button {
+    padding: 0.8rem 1.6rem;
+  }
+
+  /* footer section */
+
+  footer .container {
+    flex-wrap: wrap;
+    gap: 3rem;
+  }
+
+  footer .container > * {
+    flex-basis: 45%;
+  }
+
+  footer .address,
+  footer .footer-links,
+  footer .help,
+  footer .newsletter {
+    gap: 1.5rem;
+  }
+
+  footer ul {
+    gap: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .container {
+    padding: 0 3rem;
+  }
+
+  /* || Home page || */
+
+  /* hero and header section */
+  header .bar {
+    display: block;
+  }
+
+  header ul {
+    display: none;
+  }
+
+  header .cart-icon {
+    display: block;
+  }
+
+  header .logo {
+    margin-left: -8rem;
+  }
+
+  .hero-section {
+    height: 80vh;
+  }
+
+  .hero-text {
+    width: 70%;
+    top: 15rem;
+  }
+  /* product section */
+  .product-section .products-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .product-section .hover-content .flex {
+    gap: 1.2rem;
+  }
+
+  .product-section .hover-content .flex span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .product-section .hover-content .flex span i {
+    margin-right: 0.2rem;
+  }
+
+  /* cta section */
+
+  .cta-section .container .cta-image {
+    flex-direction: column;
+  }
+
+  /* || Shop page || */
+  /*  banner section */
+
+  .banner-section {
+    height: 35vh;
+  }
+
+  /* result section */
+
+  .result-left {
+    gap: 1.5rem;
+  }
+
+  .result-left .showing-result {
+    padding-left: 1rem;
+  }
+
+  .result-right {
+    justify-content: flex-end;
+  }
+
+  .result-right div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  /* after all service section */
+
+  .after-sell-service .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+  }
+
+  /* || Contact page || */
+
+  .contact-section .contact-para br {
+    display: none;
+  }
+
+  .contact-section .contact {
+    margin-top: 5rem;
+    justify-content: space-between;
+    gap: 4rem;
+  }
+  .contact-section .contact > * {
+    flex: 1;
+  }
+
+  /* || Checkout page || */
+
+  /* checkout section */
+
+  .checkout-section .container form {
+    gap: 4rem;
+  }
+  .checkout-section .left-part .name {
+    gap: 1rem;
+  }
+
+  /* || Single product page || */
+
+  .asgaard-sofa-section .container {
+    flex-direction: column;
+  }
+
+  .asgaard-sofa-section .sofa-details {
+    flex-basis: 100%;
+    width: 100%;
+  }
+
+  .sofa-description h3 {
+    white-space: nowrap;
+    justify-content: space-between;
+  }
+  .sofa-description .sofa-description-image {
+    flex-direction: column;
+  }
+
+  /* || Blog page || */
+
+  /* blog section */
+
+  .blog-section .container {
+    flex-direction: column-reverse;
+    margin-top: 4rem;
+  }
+
+  .blog-section aside {
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 481px) {
+  .container {
+    padding: 0 2rem;
+  }
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  h2 {
+    font-size: 1.7;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+
+  h4 {
+    font-size: 1.1rem;
+  }
+
+  p,
+  a {
+    font-size: 0.95rem;
+  }
+
+  /* || Home page || */
+
+  /* hero section */
+  /* header */
+  header .logo {
+    margin-left: -3rem;
+  }
+
+  header .logo img {
+    width: 80%;
+    height: auto;
+  }
+
+  /* hero section */
+  .hero-section {
+    height: 70vh;
+    margin-top: 4.1rem;
+  }
+
+  .hero-text {
+    width: 80%;
+    top: 10rem;
+    left: 3rem;
+  }
+  .gallery-section {
+    margin: 0 auto;
+    width: 80%;
+    overflow-x: hidden;
+  }
+
+  .browze-range-cards {
+    flex-direction: column;
+  }
+
+  .browze-range-cards img {
+    width: 90%;
+    height: auto;
+  }
+
+  /* product section */
+  .product-section .products-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .product-section .product-card {
+    width: 90%;
+  }
+
+  /* cta section */
+  .cta-section .container .cta-image img {
+    width: 80%;
+    height: auto;
+  }
+
+  /* footer section */
+
+  footer .container {
+    align-items: center;
+    justify-content: center;
+  }
+  footer .container br {
+    display: none;
+  }
+  .sub-footer.container {
+    justify-content: flex-start;
+    white-space: nowrap;
+  }
+
+  /*  || Shop page || */
+
+  .result-section .container {
+    flex-direction: column;
+  }
+
+  .result-section .container .result-left {
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+
+  .result-left .showing-result {
+    border-left: none;
+  }
+
+  .after-sell-service .container {
+    grid-template-columns: 1fr;
+    gap: 5rem;
+  }
+
+  .blog-section aside {
+    flex-direction: column;
+  }
+
+  /*  || Contact page || */
+
+  /* contact section */
+  .contact-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .contact-section .contact {
+    flex-direction: column-reverse;
+  }
+
+  /* || Single product page || */
+
+  .asgaard-banner .container {
+    gap: 1rem;
+  }
+
+  .asgaard-sofa-section .sofa-large .sofa-large-image {
+    height: 28rem;
+  }
+
+  .asgaard-sofa-section .sofa-details .review {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .asgaard-sofa-section .review .gray-color {
+    border-left: none;
+    padding-left: 0;
+  }
+
+  .sofa-details .buttons {
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
+  .sofa-details .buttons button:nth-child(1) {
+    justify-content: center;
+    gap: 3rem;
+  }
+
+  .sofa-details .sofa-model div span i {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+  }
+
+  .sofa-details .sofa-model {
+    gap: 1rem;
+  }
+
+  /* sofa description */
+  .sofa-description h3 {
+    flex-direction: column;
+  }
+
+  .sofa-description p {
+    padding: 0;
+  }
+
+  /*  || Checkout || */
+
+  .checkout-section .container form {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  /* || Cart page || */
+  .cart-description table {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+  }
+
+  .cart-description table thead {
+    display: flex;
+    align-items: center;
+  }
+  .cart-description table thead tr {
+    padding-top: 4rem;
+  }
+  .cart-description table thead tr,
+  .cart-description table tbody tr {
+    display: flex;
+    flex-direction: column;
+  }
+}
