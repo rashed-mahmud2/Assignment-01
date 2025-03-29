@@ -417,6 +417,7 @@
 
   .browze-range-cards {
     flex-direction: column;
+    justify-content: center;
   }
 
   .browze-range-cards img {
@@ -433,6 +434,7 @@
 
   .product-section .product-card {
     width: 90%;
+    margin: 0 auto;
   }
 
   /* cta section */
