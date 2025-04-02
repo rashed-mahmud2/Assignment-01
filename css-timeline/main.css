@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.containerr {
+  background-color: rgb(3, 3, 38);
+  color: rgb(202, 214, 224);
+  padding: 2rem;
+}
+
+.timeline {
+  background-color: #333;
+  width: 60%;
+  margin: 2rem auto;
+  padding: 1rem;
+  position: relative;
+}
+
+.timeline::before {
+  content: "";
+  width: 2px;
+  height: 14.7rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  position: absolute;
+  left: -5rem;
+  top: -1rem;
+}
+
+.arrow-left {
+  width: 0;
+  height: 0;
+  border-top: 16px solid transparent;
+  border-bottom: 16px solid transparent;
+  border-right: 16px solid #333;
+  position: absolute;
+  left: -1rem;
+  top: 1rem;
+}
+
+.emoji.blue,
+h3.blue {
+  background-color: rgba(40, 40, 184, 0.888);
+}
+
+.emoji.green,
+h3.green {
+  background-color: green;
+}
+
+.emoji {
+  background-color: orangered;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: -6rem;
+}
+
+.emoji i {
+  font-size: 1.2rem;
+}
+
+p.time {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 0.5rem;
+}
+
+h3 {
+  background-color: orangered;
+  width: 6rem;
+  padding: 0 0.4rem;
+  border-radius: 0.5rem;
+  margin-bottom: 0.6rem;
+}
